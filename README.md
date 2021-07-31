@@ -11,13 +11,13 @@ irent 路邊租還找車服務
 
 這服務不需要登入，只需要自己申請 Telegram Bot 的 access token   
 
-`telegram_bot_token` 請輸入自己從 https://telegram.me/BotFather 申請來的 token
-`search_radius_km` 表示搜車的公里半徑，預設設定 1.5 公里，可自行修改
+`telegram_bot_token` 請輸入自己從 https://telegram.me/BotFather 申請來的 token  
+`search_radius_km` 表示搜車的公里半徑，預設設定 1.5 公里，可自行修改  
 
 
 # 使用方式
-    * 直接分享 Location 給 bot 
-    * 在輸入框先輸入 `/address ` 後加上地址
+    * 直接分享 Location 給 bot  
+    * 在輸入框先輸入 `/address ` 後加上地址  
 
 系統會每 30 秒搜尋一次，直到找到車為止。
 
@@ -29,8 +29,8 @@ irent 路邊租還找車服務
 ![](demo.gif)
 
 # Todo
-    - [ ] 實做停止功能
-    - [ ] 地址轉經緯度的網頁爬重穩定度
+    - [ ] 實做停止功能  
+    - [ ] 地址轉經緯度的網頁爬重穩定度  
 
 
 * 參考資料
