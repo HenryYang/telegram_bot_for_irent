@@ -49,8 +49,7 @@ def search_location(update: Update, context: CallbackContext) -> None:
                 r2 = requests.get('https://api.telegram.org/bot' + telegram_bot_token + '/sendlocation', params = my_params3)
             update.message.reply_text("尋車結束")
             break
-        time.sleep(5)
-        update.message.reply_text("測試中")
+        time.sleep(30)
      
 
 
@@ -77,9 +76,7 @@ def search_address(update: Update, context: CallbackContext) -> None:
                 r2 = requests.get('https://api.telegram.org/bot' + telegram_bot_token + '/sendlocation', params = my_params3)
             update.message.reply_text("尋車結束")
             break
-        time.sleep(5)
-        update.message.reply_text("測試中")
-
+        time.sleep(30)
 
 def echo(update: Update, context: CallbackContext) -> None:
     update.message.reply_text(update.message.text)
